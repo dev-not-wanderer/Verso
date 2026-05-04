@@ -32,3 +32,131 @@ google-services.json
 
 # Android Profiling
 *.hprof
+# =========================
+# ENV / SECRETS
+# =========================
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+*.keystore
+secrets.json
+ 
+# API keys / config (customize if needed)
+config.local.js
+config.dev.js
+ 
+# =========================
+# NODE / JAVASCRIPT
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+ 
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+ 
+# Build outputs
+dist/
+build/
+out/
+coverage/
+ 
+# =========================
+# CAPACITOR / WEBVIEW
+# =========================
+.android/
+.ios/
+ 
+# Build Inputs
+www/
+public/build/
+ 
+# =========================
+# ANDROID (ANDROID STUDIO / GRADLE)
+# =========================
+.gradle/
+local.properties
+ 
+# Build folders
+/build/
+/app/build/
+ 
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+ 
+# Signing files
+*.jks
+*.keystore
+ 
+# Android Studio
+.idea/
+*.iml
+ 
+# =========================
+# IOS
+# =========================
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+ 
+# =========================
+# LOGS & TEMP FILES
+# =========================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+ 
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+ 
+# =========================
+# EDITORS / TOOLS
+# =========================
+.vscode/
+*.swp
+*.swo
+ 
+# =========================
+# TEST / CACHE
+# =========================
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+ 
+# =========================
+# MISC
+# =========================
+*.bak
+*.old
+*.orig
+
+# Node dependencies
+node_modules/
+
+# Android-specific ignores
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/*.iml
+android/local.properties
+
+# Capacitor-specific
+capacitor.config.json.bak
