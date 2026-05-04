@@ -1,0 +1,31 @@
+{
+  "name": "verso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@capacitor/camera": "^8.2.0",
+    "@capacitor/core": "^8.3.1",
+    "@capacitor/filesystem": "^8.1.2",
+    "@capacitor/local-notifications": "^8.0.2",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/share": "^8.0.1",
+    "lucide-react": "^1.14.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.3.1",
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.10"
+  }
+}
